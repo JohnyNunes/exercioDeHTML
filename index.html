@@ -3,35 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MEU PRIMEIRO SITE</title>
+    <title>trabalhando com tabelas -- DIO.me</title>
+        <style>
+            table tr:nth-child(even) {
+                background-color: blueviolet;
+            }
+            table td:hover td {
+                background-color: green;
+            }
+        </style>
 </head>
 <body>
-    
-    <center>PROJETO DE USO DE TAGS DE TEXTO EM HTML</center>
-    
-    <h1>UM AMBIENTE DE TESTES QUE SERVE PARA PENSAR EM MELHORIAS NO APRENDIZADO</h1>
-    <p> Sinta-se a vontade para propor sugestões de<br> melhorias, afinal de contas, o melhor aprendizado <br>é <strong>ERRANDO QUE SE APRENDE !!!</strong></p>
-    <blockquote>
-        "Não me importo quantas vezes posso errar, o que importa é aprender com cada erro"
-    </blockquote>
-        <h2>NAVEGUE O QUANTO QUISER !!</h2>
-        <p>Não é muita coisa, mas é trabalho honesto, até pq eu nunca <del><strong>errei</strong></del> acertei na primeira tentativa</p>
-        <p>De qualquer maneira, estou aprendendo HTML na <abbr title="Digital Innovation One"></abbr>DIO</p>
-
-         <h3>UMA PLATAFORMA QUE É CAPAZ DE MUDAR A QUALQUER HORA !!!</h3>
-         <p>Sim, deixarei esse projeto postado no github, para poder <br> acessar a qualquer hora e pensar em <br> melhorias
-        para que o meu código possa <br> estar sempre com atualizações modernas</p>
-
-            <h4>PRECISO MELHORAR MEU HTML, PARA PODER PASSAR PARA O CSS SEM PROBLEMAS</h4>
-            <p>Estou aprendendo a ser uma pessoa autodidata, com isso, <br> pretendo estudar muito para conseguir
-            <br> aperfeiçoar minhas boas práticas, como um <br> bom e futuro programador front-end. E por que<br>
-            não até mesmo, ser um desenvolvedor full-stack ?</p>
-
-            <h5>MEUS APRENDIZADOS NAS AULAS DE HTML ESTÃO EVOLUINDO !</h5>
-            <p>descobri coisas interessantes durante as minhas aulas de html<br> como por exemplo conseguir escrever
-                a fórmula molecular da água, utilizando a tag "sub" = H<sub>2</sub>O</p><br>
-                e também colocar número com expoentes numéricos, igual daquelas aulas<br>
-                de matemática básica , usando a tag "sup": b<sup>2</sup>= -4AC
+    <table summary = "Um exemplo de tabela"border="1.5" width="250" align="center" cellspacing = "2.5" cellpadding = "5">
         
+ <thead>
+     <tr>
+     <th colspan="2">Minha tabela</th>
+     </tr>
+      <tr>
+        <th title ="Nome completo"></th>
+        <th>idade</th> 
+      </tr>
+ </thead>
+     <tbody>
+        <tr>
+            <td>Nome</td>
+            <td>idade</td>
+        </tr>
+            <tr id="1">
+                <td>Johny</td>
+                <td>33</td>
+            </tr>
+             <tr id="2">
+                <td>Davidson</td>
+                <td>34</td>
+             </tr>
+               <tr id="3">
+                 <td>Nunes</td>
+                 <td>35</td>   
+               </tr>
+                <tr id="4">
+                    <td>Cordeiro</td>
+                    <td>36</td>
+                </tr>
+     </tbody>
+    </table>
 </body>
 </html>
