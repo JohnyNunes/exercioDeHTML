@@ -27,8 +27,8 @@
     background-color: #444;
 }
 
+
 .content {
-    background-color: antiquewhite;
     margin: 0px;
     text-align: left;
 }
@@ -40,12 +40,9 @@
 .dicas {
     text-align: left;
 }
-.conteudo {
-    background-color: antiquewhite;
-}
 
 .th, td, tr {
-    font-size: large;
+    font-size: larger;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding: 15px;
@@ -56,6 +53,64 @@
 }
 .td, th {
     border:2px solid #000;
-    background-color: aliceblue;
     box-shadow: #333;
 }
+
+.comentario-direita {
+    text-align: left;
+}
+
+
+    table {
+      width: 100%;
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    td {
+      padding: 10px;
+      vertical-align: top;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    .buttons {
+      text-align: center;
+      padding-top: 10px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      background-color: #007bff;
+      color: white;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="reset"] {
+      background-color: #dc3545;
+    }
+
+    input[type="submit"]:hover,
+    input[type="reset"]:hover {
+      opacity: 0.9;
+    }
